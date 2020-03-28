@@ -20,3 +20,27 @@ umur : umur pasien
 jenis_kelamin : jenis kelamin (P/L)  
 cluster : keterangan cluster  
 keterangan : keterangan  
+## 2. Data Cluster
+Data ini berbentuk json, terdiri dari beberapa atribut yaitu :  
+from : nomor pasien asal penyebaran  
+to : nomor pasien yang menerima penyebaran  
+## 3. Data Provinsi
+Data ini berbentuk json, terdiri dari beberapa atribut yaitu :  
+provinsi : nomor provinsi  
+lat : latitude  
+long :longitude  
+jumlah_pasien : jumlah pasien  
+## 4. Data Perkembangan Kasus Corona
+Hari ke : hari ke- sejak covid19 terdeteksi di indonesia  
+Tanggal : tanggal 
+Kasus baru : jumlah kasus baru  
+Kasus kumulatif : jumlah kasus secara kumulatif  
+Dalam perawatan : jumlah pasien dalam perawatan  
+Sembuh baru : jumlah pasien yang baru sembuh  
+Sembuh kumulatif : jumlah pasien yang sembu secara kumulatif  
+Meninggal baru : jumlah pasien baru meninggal  
+Meninggal kumulatif : jumlah pasien yang meninggal secara kumulatif  
+Tingkat kematian : presentase tingkat kematian diperoleh dari meninggal Meninggal kumulatif dibagi kumulatif kasus baru  
+Jumlah periksa : jumlah orang yang diperiksa  
+Positif : jumlah pasien yang positif  
+Negatif : jumlah pasien yang negatif  
